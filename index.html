@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mobile Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/min.css">
+
+</head>
+<body>
+  <div id="sidebar">
+    <div class="toggle-btn" onclick="openMenu()">
+         <span></span>
+         <span></span>
+         <span></span>
+    </div>
+      <ul>
+          <li>Меню сайта</li>
+          <li><a href="/">Главное меню</a></li>
+          <li><a href="/">Контакты</a></li>
+          <li><a href="/">Про нас</a></li>
+      </ul>
+
+  </div>
+
+<script>
+    function openMenu() {
+       document.getElementById("sidebar").classList.toggle('active');
+
+    }
+</script>
+</body>
+</html>
